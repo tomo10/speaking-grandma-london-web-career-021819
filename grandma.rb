@@ -2,15 +2,15 @@
 
 def speak_to_grandma(string)
   
-  if string.downcase == string 
+  if string == "I LOVE YOU GRANDMA!"
+  return "I LOVE YOU TOO PUMPKIN!"
+  
+  elsif string.downcase == string 
   return "HUH?! SPEAK UP, SONNY!"
 
-else if string.upcase == string 
+  elsif string.upcase == string 
   return "NO, NOT SINCE 1938!"
   
-else if 
-  string == "I LOVE YOU GRANDMA!"
-  return "I LOVE YOU TOO PUMPKIN!"
   
 end
 end
