@@ -2,10 +2,10 @@
 
 def speak_to_grandma(string)
   
-  if string.downcase
+  if string.downcase == string 
   return "HUH?! SPEAK UP, SONNY!"
 
-else if string.upcase
+else if string.upcase == string 
   return "NO, NOT SINCE 1938!"
   
 else if 
